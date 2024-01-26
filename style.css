@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    background-color: rgb(2, 2, 59);
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    color: whitesmoke;
+    padding-top: .2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 1rem 2rem 1rem;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0 0 0;
+}
+
+.webpage-logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: .25rem;
+    width: 4rem;
+    height: 2.5rem;
+}
+
+.top-buttons {
+    display: flex;
+    text-align: right;
+    padding: .5%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 295px;
+    border: none;
+    background-color: rgb(2, 2, 59);
+}
+
+.top-button-des {
+    background-color: rgb(2, 2, 59);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.top-button-des.three {
+    background-color: blue;
+    border-radius: .4rem;
+    height: 1.5rem;
+}
+
+.dropdown.one {
+    position: relative;
+    display: inline-block
+}
+
+.dropdown.two {
+    position: relative;
+    display: inline-block
+}
+
+.dropdown.three {
+    position: relative;
+    display: inline-block
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    border-radius: .5rem;
+}
+
+.dropdown-content.one a {
+    color: blue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 5.5rem;
+    height: 2rem;
+}
+
+.dropdown-content.two a {
+    color: blue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 5.5rem;
+    height: 2rem;
+}
+
+.dropdown-content.three a {
+    color: blue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 5.5rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border-color: red;
+}
+
+.dropdown:hover .dropdown-content.one {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content.two {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content.three {
+    display: block;
+}
+
+.bot-buttons {
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+
+}
+
+.bot-button-des {
+    max-height: 1rem;
+    background-color: white;
+    color: blue;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: .1rem solid blue;
+}
+
+.main-text {
+    display: block;
+    text-align: left;
+    max-width: 30%;
+    font-family: sans-serif
+}
+
+
+
+.main-text h4 {
+    color: yellow;
+    margin: .5rem;
+}
+
+.main-text h2 {
+    size: 4rem;
+    margin: .5rem;
+}
+
+.main-text p {
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+.main .logo-photo {
+    max-height: .75rem;
+}
+
+.main-photo {
+    display: flex;
+    justify-content: right;
+    width: 45%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.main-photo-position {
+    display: flex;
+    ;
+}
+
+
+/* .realative-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 4rem;
+    font-size: 4rem;
+    max-height: 2rem;
+    margin: 0;
+}
+
+.absolute-text {
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 4rem;
+    background-color: rgb(2, 2, 59);
+    max-height: .75rem;
+    font-size: .75rem;
+
+
+@media (max-width:700px) {
+    body {}
+} */
